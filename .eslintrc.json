@@ -1,3 +1,95 @@
 {
-  "extends": "next/core-web-vitals"
+	"extends": ["next/core-web-vitals", "prettier"],
+	"plugins": [],
+	"rules": {
+		"array-bracket-newline": ["error", "never"],
+		"array-bracket-spacing": [
+			"error",
+			"always",
+			{
+				"singleValue": false,
+				"objectsInArrays": true,
+				"arraysInArrays": false
+			}
+		],
+		"array-element-newline": ["error", "always"],
+		"arrow-body-style": ["error", "always"],
+		"arrow-parens": ["error", "always"],
+		"arrow-spacing": [
+			"error",
+			{
+				"before": true,
+				"after": true
+			}
+		],
+		"complexity": ["error", 2],
+		"func-names": ["error", "always"],
+		"func-style": [
+			"error",
+			"declaration",
+			{
+				"allowArrowFunctions": "true"
+			}
+		],
+		"max-classes-per-file": ["error", 1],
+		"max-lines": ["error", 300],
+		"max-lines-per-function": ["error", 80],
+		"max-nested-callbacks": ["error", 1],
+		"max-depth": ["error", 2],
+		"max-params": ["error", 10],
+		"max-statements": ["error", 3],
+		"multiline-comment-style": ["error", "starred-block"],
+		"new-cap": [
+			"error",
+			{
+				"newIsCap": true
+			}
+		],
+		"no-array-constructor": "error",
+		"no-bitwise": "error",
+		"no-confusing-arrow": "error",
+		"no-continue": "error",
+		"no-delete-var": "error",
+		"no-div-regex": "error",
+		"no-empty": "error",
+		"no-empty-function": "error",
+		"no-eq-null": "error",
+		"no-eval": "error",
+		"no-extra-bind": "error",
+		"no-extra-boolean-cast": "error",
+		"no-extra-label": "error",
+		"no-extra-semi": "error",
+		"no-global-assign": "error",
+		"no-implicit-coercion": "error",
+		"no-inline-comments": "error",
+		"no-iterator": "error",
+		"no-loop-func": "error",
+		"no-mixed-operators": "error",
+		"no-multi-assign": "error",
+		"no-multi-str": "error",
+		"no-new": "error",
+		"no-new-func": "error",
+		"no-new-object": "error",
+		"no-nonoctal-decimal-escape": "error",
+		"no-octal": "error",
+		"no-param-reassign": "error",
+		"no-proto": "error",
+		"no-redeclare": "error",
+		"no-var": "error",
+		"no-with": "error",
+		"operator-assignment": ["never", "never"],
+		"prefer-const": [
+			"error",
+			{
+				"destructuring": "all"
+			}
+		],
+		"prefer-destructuring": [
+			"error",
+			{
+				"object": true,
+				"array": true
+			}
+		]
+	}
 }
