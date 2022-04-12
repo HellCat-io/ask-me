@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.icon-xs {
+		@apply w-4 h-4;
+	}
+
+	.icon-sm {
+		@apply w-18 h-18;
+	}
+
+	.icon-md {
+		@apply w-5 h-5;
+	}
+
+	.icon-lg {
+		@apply w-6 h-6;
+	}
+}

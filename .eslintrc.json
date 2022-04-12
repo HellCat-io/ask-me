@@ -1,8 +1,9 @@
 {
-	"extends": ["next/core-web-vitals", "prettier"],
-	"plugins": [],
+	"extends": ["next/core-web-vitals"],
+	"plugins": ["prettier"],
 	"rules": {
-		"array-bracket-newline": ["error", "never"],
+		"prettier/prettier": "error",
+		"array-bracket-newline": ["error", "consistent"],
 		"array-bracket-spacing": [
 			"error",
 			"always",

@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.primary-btn-lg,
+	.primary-btn-md,
+	.primary-btn-sm,
+	.secondary-btn-lg,
+	.secondary-btn-md,
+	.secondary-btn-sm,
+	.danger-btn-lg,
+	.danger-btn-md,
+	.danger-btn-sm,
+	.primary-icon-btn-lg,
+	.primary-icon-btn-md,
+	.primary-icon-btn-sm,
+	.secondary-icon-btn-lg,
+	.secondary-icon-btn-md,
+	.secondary-icon-btn-sm,
+	.tertiary-icon-btn-lg,
+	.tertiary-icon-btn-md,
+	.tertiary-icon-btn-sm,
+	.danger-icon-btn-lg,
+	.danger-icon-btn-md,
+	.danger-icon-btn-sm {
+		@apply flex justify-center items-center rounded-lg;
+	}
+
+	.primary-btn-lg,
+	.primary-btn-md,
+	.primary-btn-sm,
+	.secondary-btn-lg,
+	.secondary-btn-md,
+	.secondary-btn-sm,
+	.primary-icon-btn-lg,
+	.primary-icon-btn-md,
+	.primary-icon-btn-sm,
+	.secondary-icon-btn-lg,
+	.secondary-icon-btn-md,
+	.secondary-icon-btn-sm {
+		@apply text-white;
+	}
+
+	.secondary-btn-lg,
+	.secondary-btn-md,
+	.secondary-btn-sm,
+	.danger-btn-lg,
+	.danger-btn-md,
+	.danger-btn-sm,
+	.secondary-icon-btn-lg,
+	.secondary-icon-btn-md,
+	.secondary-icon-btn-sm,
+	.danger-icon-btn-lg,
+	.danger-icon-btn-md,
+	.danger-icon-btn-sm {
+		@apply border border-slate-700;
+	}
+
+	.primary-btn-lg,
+	.primary-btn-md,
+	.primary-btn-sm,
+	.primary-icon-btn-lg,
+	.primary-icon-btn-md,
+	.primary-icon-btn-sm {
+		@apply bg-accent hover:shadow-hover focus:shadow-focus active:bg-violet-600 active:shadow-active disabled:bg-violet-400;
+	}
+
+	.secondary-btn-lg,
+	.secondary-btn-md,
+	.secondary-btn-sm,
+	.secondary-icon-btn-lg,
+	.secondary-icon-btn-md,
+	.secondary-icon-btn-sm {
+		@apply bg-slate-900 hover:bg-slate-800 focus:border-violet-500 focus:shadow-focus active:shadow-active 
+					 active:bg-slate-800 disabled:bg-slate-500 disabled:border-slate-400;
+	}
+
+	.tertiary-icon-btn-lg,
+	.tertiary-icon-btn-md,
+	.tertiary-icon-btn-sm {
+		@apply bg-transparent text-slate-400 hover:bg-slate-700 hover:text-white focus:shadow-focus focus:text-white
+				 active:bg-slate-700 active:text-white active:shadow-active disabled:bg-tertiaryDisabled;
+	}
+
+	.danger-btn-lg,
+	.danger-btn-md,
+	.danger-btn-sm,
+	.danger-icon-btn-lg,
+	.danger-icon-btn-md,
+	.danger-icon-btn-sm {
+		@apply text-red-500 focus:border-red-500 focus:shadow-dangerFocus hover:bg-red-500 hover:shadow-dangerHover
+					 hover:text-white hover:border-none active:border-none active:text-white active:bg-red-700 active:shadow-active 
+					 disabled:bg-dangerDisabled disabled:border-red-300;
+	}
+
+	.primary-btn-lg,
+	.secondary-btn-lg,
+	.danger-btn-lg {
+		@apply w-170 h-40;
+	}
+
+	.primary-btn-md,
+	.secondary-btn-md,
+	.danger-btn-md {
+		@apply w-130 h-35;
+	}
+
+	.primary-btn-sm,
+	.secondary-btn-sm,
+	.danger-btn-sm {
+		@apply w-100 h-30;
+	}
+
+	.primary-icon-btn-lg,
+	.secondary-icon-btn-lg,
+	.tertiary-icon-btn-lg,
+	.danger-icon-btn-lg {
+		@apply w-40 h-40;
+	}
+
+	.primary-icon-btn-md,
+	.secondary-icon-btn-md,
+	.tertiary-icon-btn-md,
+	.danger-icon-btn-md {
+		@apply w-35 h-35;
+	}
+
+	.primary-icon-btn-md,
+	.secondary-icon-btn-md,
+	.tertiary-icon-btn-md,
+	.danger-icon-btn-md {
+		@apply w-30 h-30;
+	}
+}

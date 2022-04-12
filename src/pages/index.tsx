@@ -1,9 +1,7 @@
 import type { NextPage } from "next"
 import Head from "next/head"
 import Image from "next/image"
-import styles from "../styles/Home.module.css"
-import Icon from "../components/Icon/Icon"
-import { icons } from "../modules/icons"
+import styles from "../styles/Home.module.scss"
 
 const Home: NextPage = () => {
 	return (
@@ -53,7 +51,6 @@ const Home: NextPage = () => {
 						</p>
 					</a>
 				</div>
-				<Icon styles="w-5 text-black">{icons.moon}</Icon>
 			</main>
 
 			<footer className={styles.footer}>
