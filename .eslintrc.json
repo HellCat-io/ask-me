@@ -23,7 +23,7 @@
 				"after": true
 			}
 		],
-		"complexity": ["error", 2],
+		"complexity": ["error", 3],
 		"func-names": ["error", "always"],
 		"func-style": [
 			"error",
@@ -37,9 +37,9 @@
 		"max-lines-per-function": ["error", 80],
 		"max-nested-callbacks": ["error", 1],
 		"max-depth": ["error", 2],
-		"max-params": ["error", 10],
-		"max-statements": ["error", 3],
-		"multiline-comment-style": ["error", "starred-block"],
+		"max-params": ["error", 4],
+		"max-statements": ["error", 10],
+		"multiline-comment-style": "off",
 		"new-cap": [
 			"error",
 			{

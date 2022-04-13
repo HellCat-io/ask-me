@@ -5,4 +5,5 @@ export interface ButtonProps {
 	variant: "primary" | "secondary" | "danger"
 	size: "sm" | "md" | "lg"
 	styles?: string
+	leadingIcon?: ReactNode
 }
